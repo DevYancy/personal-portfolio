@@ -28,7 +28,11 @@ h2 {
   section {
     padding: 60px 0;
   }
-  
+
+  section > * {
+    padding: 0 15px;
+  }
+
   h2 {
     font-size: 2rem;
   }

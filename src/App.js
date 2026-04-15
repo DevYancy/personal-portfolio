@@ -9,20 +9,23 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
-    const savedMode = localStorage.getItem('darkMode') === 'true';
+    const storedMode = localStorage.getItem('darkMode');
+    const savedMode = storedMode !== null ? storedMode === 'true' : true;
     setDarkMode(savedMode);
-    if (savedMode) {
-      document.body.classList.add('dark-mode');
-    }
+    document.body.classList.toggle('dark-mode', savedMode);
+    localStorage.setItem('darkMode', savedMode);
   }, []);
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.body.classList.toggle('dark-mode');
-    localStorage.setItem('darkMode', !darkMode);
+    setDarkMode((current) => {
+      const nextMode = !current;
+      document.body.classList.toggle('dark-mode', nextMode);
+      localStorage.setItem('darkMode', nextMode);
+      return nextMode;
+    });
   };
 
   return (

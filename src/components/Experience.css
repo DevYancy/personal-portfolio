@@ -135,6 +135,10 @@
 }
 
 @media (max-width: 768px) {
+  .timeline {
+    padding: 0 15px;
+  }
+
   .timeline::before {
     left: 30px;
   }
@@ -142,7 +146,14 @@
   .experience-card {
     width: calc(100% - 60px);
     margin-left: 60px !important;
+    margin-right: 0 !important;
     padding: 20px;
+  }
+
+  .experience-card:nth-child(odd),
+  .experience-card:nth-child(even) {
+    margin-left: 60px !important;
+    margin-right: 0 !important;
   }
 
   .experience-card::before {

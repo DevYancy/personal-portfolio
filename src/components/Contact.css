@@ -83,6 +83,11 @@
     padding: 60px 20px;
   }
 
+  .contact > * {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
   .contact h2 {
     font-size: 2rem;
   }

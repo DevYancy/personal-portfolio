@@ -91,9 +91,14 @@
 }
 
 @media (max-width: 768px) {
+  .about-content {
+    padding: 0 10px;
+  }
+
   .about-content p {
     font-size: 1rem;
     text-align: left;
+    max-width: 100%;
   }
 
   .tech-stack-btn {
