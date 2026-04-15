@@ -1,0 +1,175 @@
+.experience {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #4a9eff;
+}
+
+.experience-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: calc(50% - 40px);
+}
+
+.experience-card:nth-child(odd) {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.experience-card:nth-child(even) {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #4a9eff;
+  border-radius: 50%;
+  top: 30px;
+}
+
+.experience-card:nth-child(odd)::before {
+  right: -48px;
+}
+
+.experience-card:nth-child(even)::before {
+  left: -48px;
+}
+
+.card-header {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  font-size: 3rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.company-info {
+  flex: 1;
+}
+
+.position {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.company-name {
+  color: #4a9eff;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.period, .location {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.responsibilities {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.responsibilities li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  color: #666;
+  line-height: 1.6;
+}
+
+.responsibilities li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #4a9eff;
+  font-weight: bold;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tech-tag {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 30px;
+  }
+
+  .experience-card {
+    width: calc(100% - 60px);
+    margin-left: 60px !important;
+    padding: 20px;
+  }
+
+  .experience-card::before {
+    left: -48px !important;
+  }
+
+  .card-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .company-logo {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+
+  .position {
+    font-size: 1.1rem;
+  }
+
+  .responsibilities li {
+    font-size: 0.95rem;
+  }
+
+  .tech-tag {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+}

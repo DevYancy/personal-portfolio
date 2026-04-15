@@ -1,0 +1,71 @@
+.education {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.education-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.education-logo {
+  font-size: 4rem;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.education-info {
+  flex: 1;
+}
+
+.degree {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #4a9eff;
+  margin-bottom: 10px;
+}
+
+.school {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.year {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.specialization {
+  font-size: 0.95rem;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .education-logo {
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+  }
+}
