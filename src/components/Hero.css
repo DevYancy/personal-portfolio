@@ -18,10 +18,11 @@
 }
 
 .hero-image img {
-  width: 320px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 420px;
   height: auto;
   object-fit: contain;
+  object-position: top center;
 }
 
 .hero-image {
@@ -31,6 +32,7 @@
   width: 100%;
   max-width: 420px;
   flex-shrink: 0;
+  margin-top: 90px;
 }
 
 .hero-title {
@@ -70,20 +72,30 @@
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     min-height: auto;
-    padding: 60px 20px 40px;
+    padding: 150px 50px 30px;
     gap: 30px;
   }
 
   .hero-content {
     text-align: center;
+    width: 100%;
   }
 
   .hero-image {
     max-width: 100%;
-    margin-top: 0;
+    width: 100%;
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+
+  .hero-image img {
+    max-height: 60vh;
+    width: 100%;
+    max-width: 420px;
+    object-position: top center;
   }
 
   .hero-title {
