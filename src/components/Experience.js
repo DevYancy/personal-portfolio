@@ -6,17 +6,24 @@ const Experience = () => {
     {
       company: 'Zeniark Philippines Consulting Corp',
       logo: '🔷',
-      position: 'Back End Developer | Data Engineer',
+      position: 'Back End Developer & Data Engineer',
       period: 'Feb 2024 - Present',
       location: 'Pampanga, Central Luzon, Philippines',
       responsibilities: [
-        'Contributed to backend development of Email Marketing and e-Procurement systems.',
-        'Built, optimized, and maintained RESTful APIs and backend services.',
-        'Implemented campaign, lead generation, and third-party integrations.',
-        'Designed and executed large-scale ETL pipelines and data processing workflows.',
-        'Improved database performance, indexing, and system scalability.',
-        'Implemented security, background jobs, and production maintenance.',
-        'Collaborated with cross-functional teams to deliver reliable systems.'
+        'Contributed in backend development of an Email Marketing System, including campaign creation, scheduling, tracking, and analytics.',
+        'Developed new features for an e-Procurement system.',
+        'Built and maintained RESTful APIs and backend services.',
+        'Optimized and refactored APIs for performance and scalability.',
+        'Created a lead generation and campaign sending system.',
+        'Integrated third-party APIs (e.g., email).',
+        'Worked as a Data Engineer, building and optimizing high-performance data pipelines to ingest, transform, and process millions of records from diverse data sources.',
+        'Designed and implemented ETL processes for structured and unstructured datasets, improving data accuracy, processing efficiency, and scalability.',
+        'Improved database design, optimized queries, and implemented indexing strategies.',
+        'Ensured system security through proper authentication, authorization, and input validation.',
+        'Automated background processes using job queues and schedulers.',
+        'Conducted code reviews and enforced backend best practices.',
+        'Troubleshooted and maintained production systems.',
+        'Collaborated closely with frontend developers, QA engineers, and product teams.'
       ],
       technologies: ['Node.js', 'MongoDB', 'TypeScript', 'Nestjs', 'Python', 'Docker', 'Dagster', 'SQL', 'Oracle', 'Git']
     },

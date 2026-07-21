@@ -69,17 +69,11 @@ const technologies = [
       <h2>About</h2>
       <div className="about-content">
         <p>
-          I'm a Backend & Data Engineer with experience building scalable APIs and production-grade data pipelines. I work 
-          primarily with Node.js and NestJS for backend development, and Python with Dagster for orchestrating reliable data 
-          workflows.
-        </p>
-        <p>
-          I enjoy working on complex database logic, optimizing queries, and designing systems that transform raw data into clean, 
-          structured, and actionable information.
-        </p>
-        <p>
-          My focus is on writing maintainable code, building efficient architectures, and delivering solutions that are reliable, 
-          scalable, and easy to extend.
+          Backend Developer with 4+ years of experience and 1+ year as a Data Engineer, building scalable 
+          backend systems, RESTful APIs, and high-volume data pipelines across multiple industries. Proficient in 
+          Node.js, NestJS, Python, AWS, Docker, and SQL, with expertise in database optimization, data modeling, 
+          ETL processes, and cloud-based solutions. Committed to building secure, scalable, and maintainable 
+          software through clean code and collaborative development practices.
         </p>
         
         <button className="tech-stack-btn">Technology Stack</button>
