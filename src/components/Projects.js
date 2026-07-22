@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import apiSentinelImg from '../assets/api_sentinel_ai.png';
 import dataEngImg from '../assets/data_eng.png';
+import maycieImg from '../assets/maycie.png';
 
 const Projects = () => {
   const projects = [
@@ -13,9 +14,16 @@ const Projects = () => {
       image: apiSentinelImg
     },
     {
+      title: 'Maycie Furniture & Fixture Trading',
+      description: 'A business website for a furniture and fixture trading company, showcasing products, services, and company information.',
+      technologies: ['Web Development', 'React', 'Responsive Design'],
+      link: 'https://mayciefurnitureandfixturetrading.com/',
+      image: maycieImg
+    },
+    {
       title: 'E-Procurement System',
       description: 'Built backend APIs for a procurement management platform with vendor management, purchase orders, and approval workflows.',
-      technologies: ['Node.js', 'NestJS', 'Oracle', 'TypeScript'],
+      technologies: ['Node.js', 'NestJS', 'MongoDB', 'TypeScript'],
       link: '#',
       image: null
     },
@@ -29,14 +37,14 @@ const Projects = () => {
     {
       title: 'Data Pipeline Orchestration',
       description: 'Designed and implemented ETL pipelines for data processing, transformation, and analytics using Dagster.',
-      technologies: ['Python', 'Dagster', 'SQL', 'Docker'],
+      technologies: ['Python', 'Dagster', 'Postgres', 'Docker', 'DBT'],
       link: '#',
       image: dataEngImg
     },
     {
       title: 'Freelance Marketplace',
       description: 'Built and supported a platform connecting freelancers with clients, featuring project listings, bidding system, and secure payments.',
-      technologies: ['Node.js', 'Express', 'PostgreSQL', 'AWS', 'Stripe'],
+      technologies: ['Node.js', 'Express', 'PostgreSQL', 'AWS', 'Stripe', 'Serverless', 'S3'],
       link: '#',
       image: null
     }

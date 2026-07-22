@@ -1,11 +1,13 @@
 import React from 'react';
 import './Experience.css';
+import zeniarkLogo from '../assets/zeniark.jpeg';
+import taskLogo from '../assets/24task.png';
 
 const Experience = () => {
   const experiences = [
     {
       company: 'Zeniark Philippines Consulting Corp',
-      logo: '🔷',
+      logo: zeniarkLogo,
       position: 'Back End Developer & Data Engineer',
       period: 'Feb 2024 - Present',
       location: 'Pampanga, Central Luzon, Philippines',
@@ -25,11 +27,11 @@ const Experience = () => {
         'Troubleshooted and maintained production systems.',
         'Collaborated closely with frontend developers, QA engineers, and product teams.'
       ],
-      technologies: ['Node.js', 'MongoDB', 'TypeScript', 'Nestjs', 'Python', 'Docker', 'Dagster', 'SQL', 'Oracle', 'Git']
+      technologies: ['Node.js', 'MongoDB', 'TypeScript', 'Nestjs', 'Python', 'Docker', 'Dagster', 'SQL', 'Oracle', 'Git', 'DBT']
     },
     {
       company: '24Task',
-      logo: '⚫',
+      logo: taskLogo,
       position: 'Back End Developer',
       period: 'Jul 2022 - Nov 2023',
       location: 'Camarines Norte, Bicol Region, Philippines',
@@ -53,7 +55,9 @@ const Experience = () => {
         {experiences.map((exp, index) => (
           <div key={index} className="experience-card">
             <div className="card-header">
-              <div className="company-logo">{exp.logo}</div>
+              <div className="company-logo">
+                <img src={exp.logo} alt={exp.company} />
+              </div>
               <div className="company-info">
                 <h3 className="position">{exp.position}</h3>
                 <p className="company-name">{exp.company}</p>

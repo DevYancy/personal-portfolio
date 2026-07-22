@@ -1,5 +1,6 @@
 import './About.css';
 import dasgterIcon from '../assets/dagster-reversed-vertical.jpg';
+import dbtIcon from '../assets/dbt-logo.svg';
 const About = () => {
 const technologies = [
   {
@@ -25,7 +26,7 @@ const technologies = [
   {
     name: 'SQL',
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
-    experience: 85
+    experience: 90
   },
   {
     name: 'Docker',
@@ -40,12 +41,12 @@ const technologies = [
   {
     name: 'PostgreSQL',
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
-    experience: 80
+    experience: 90
   },
   {
     name: 'MongoDB',
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg",
-    experience: 75
+    experience: 80
   },
   {
     name: 'Express',
@@ -60,7 +61,12 @@ const technologies = [
   {
     name: 'DynamoDB',
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dynamodb/dynamodb-original.svg",
-    experience: 70
+    experience: 50
+  },
+  {
+    name: 'Data Build Tool',
+    icon: dbtIcon,
+    experience: 90
   }
 ];
 
