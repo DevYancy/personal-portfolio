@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.25dcc736.css",
-    "main.js": "/personal-portfolio/static/js/main.d9f5d959.js",
+    "main.css": "/personal-portfolio/static/css/main.bb080c56.css",
+    "main.js": "/personal-portfolio/static/js/main.ee02231a.js",
+    "static/media/maycie.png": "/personal-portfolio/static/media/maycie.7ef80b28ef22e7935f59.png",
     "static/media/2050.png": "/personal-portfolio/static/media/2050.c6f93e08e2d623906f3b.png",
     "static/media/dagster-reversed-vertical.jpg": "/personal-portfolio/static/media/dagster-reversed-vertical.b215c5f2d2101585e791.jpg",
     "static/media/099b41f5-527e-4acf-8b4b-df81bb845a08.jpeg": "/personal-portfolio/static/media/099b41f5-527e-4acf-8b4b-df81bb845a08.cabbb59b99d755dc65c7.jpeg",
@@ -13,12 +14,14 @@
     "static/media/1d64e0d7-896c-4ae6-b270-903ce430231b.jpeg": "/personal-portfolio/static/media/1d64e0d7-896c-4ae6-b270-903ce430231b.3c72c69051e6345a680a.jpeg",
     "static/media/8454c3f0-4978-4668-911c-42d8ade03bf6.jpeg": "/personal-portfolio/static/media/8454c3f0-4978-4668-911c-42d8ade03bf6.7a198da0b82cb0bb7c6e.jpeg",
     "static/media/4362fe26-22e0-4c87-bbc0-9025d8a94b44.jpeg": "/personal-portfolio/static/media/4362fe26-22e0-4c87-bbc0-9025d8a94b44.aac665fb15337de870ef.jpeg",
+    "static/media/zeniark.jpeg": "/personal-portfolio/static/media/zeniark.aa28fb3c0d07d5ff4e00.jpeg",
+    "static/media/dbt-logo.svg": "/personal-portfolio/static/media/dbt-logo.e6511bd273fcb13157bd5e017918aa74.svg",
     "index.html": "/personal-portfolio/index.html",
-    "main.25dcc736.css.map": "/personal-portfolio/static/css/main.25dcc736.css.map",
-    "main.d9f5d959.js.map": "/personal-portfolio/static/js/main.d9f5d959.js.map"
+    "main.bb080c56.css.map": "/personal-portfolio/static/css/main.bb080c56.css.map",
+    "main.ee02231a.js.map": "/personal-portfolio/static/js/main.ee02231a.js.map"
   },
   "entrypoints": [
-    "static/css/main.25dcc736.css",
-    "static/js/main.d9f5d959.js"
+    "static/css/main.bb080c56.css",
+    "static/js/main.ee02231a.js"
   ]
 }
