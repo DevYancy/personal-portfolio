@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.bb080c56.css",
-    "main.js": "/personal-portfolio/static/js/main.ee02231a.js",
+    "main.js": "/personal-portfolio/static/js/main.c24419b4.js",
     "static/media/maycie.png": "/personal-portfolio/static/media/maycie.7ef80b28ef22e7935f59.png",
     "static/media/2050.png": "/personal-portfolio/static/media/2050.c6f93e08e2d623906f3b.png",
     "static/media/dagster-reversed-vertical.jpg": "/personal-portfolio/static/media/dagster-reversed-vertical.b215c5f2d2101585e791.jpg",
@@ -18,10 +18,10 @@
     "static/media/dbt-logo.svg": "/personal-portfolio/static/media/dbt-logo.e6511bd273fcb13157bd5e017918aa74.svg",
     "index.html": "/personal-portfolio/index.html",
     "main.bb080c56.css.map": "/personal-portfolio/static/css/main.bb080c56.css.map",
-    "main.ee02231a.js.map": "/personal-portfolio/static/js/main.ee02231a.js.map"
+    "main.c24419b4.js.map": "/personal-portfolio/static/js/main.c24419b4.js.map"
   },
   "entrypoints": [
     "static/css/main.bb080c56.css",
-    "static/js/main.ee02231a.js"
+    "static/js/main.c24419b4.js"
   ]
 }
