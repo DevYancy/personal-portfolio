@@ -105,6 +105,32 @@ body.dark-mode .tech-name {
   color: #cbd5e1;
 }
 
+body.dark-mode .tech-category-title {
+  color: #94a3b8;
+}
+
+body.dark-mode .tech-category-card {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+body.dark-mode .tech-category-card:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.1);
+}
+
+body.dark-mode .tech-category-title::after {
+  background: linear-gradient(90deg, #334155, transparent);
+}
+
+body.dark-mode .tech-list li {
+  color: #cbd5e1;
+}
+
+body.dark-mode .tech-list li:hover {
+  color: #93c5fd;
+}
+
 body.dark-mode .experience-card {
   background-color: transparent;
 }

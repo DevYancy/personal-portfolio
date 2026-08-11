@@ -1,74 +1,24 @@
 import './About.css';
-import dasgterIcon from '../assets/dagster-reversed-vertical.jpg';
-import dbtIcon from '../assets/dbt-logo.svg';
+
 const About = () => {
-const technologies = [
-  {
-    name: 'Node.js',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg",
-    experience: 90
-  },
-  {
-    name: 'NestJS',
-    icon: "https://nestjs.com/img/logo-small.svg",
-    experience: 85
-  },
-  {
-    name: 'Python',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg",
-    experience: 80
-  },
-  {
-    name: 'Dagster',
-    icon: dasgterIcon,
-    experience: 75
-  },
-  {
-    name: 'SQL',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
-    experience: 90
-  },
-  {
-    name: 'Docker',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg",
-    experience: 70
-  },
-  {
-    name: 'AWS',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
-    experience: 65
-  },
-  {
-    name: 'PostgreSQL',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg",
-    experience: 90
-  },
-  {
-    name: 'MongoDB',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg",
-    experience: 80
-  },
-  {
-    name: 'Express',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg",
-    experience: 85
-  },
-  {
-    name: 'TypeScript',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
-    experience: 80
-  },
-  {
-    name: 'DynamoDB',
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dynamodb/dynamodb-original.svg",
-    experience: 50
-  },
-  {
-    name: 'Data Build Tool',
-    icon: dbtIcon,
-    experience: 90
-  }
-];
+  const techCategories = [
+    {
+      category: 'Backend',
+      techs: ['Node.js', 'NestJS', 'Express', 'TypeScript']
+    },
+    {
+      category: 'Data Engineering',
+      techs: ['Python', 'Dagster', 'DBT', 'SQL']
+    },
+    {
+      category: 'Databases',
+      techs: ['PostgreSQL', 'MongoDB', 'DynamoDB', 'Oracle']
+    },
+    {
+      category: 'Cloud & DevOps',
+      techs: ['AWS', 'Docker', 'Serverless']
+    }
+  ];
 
   return (
     <section id="about" className="about">
@@ -83,28 +33,19 @@ const technologies = [
         </p>
         
         <button className="tech-stack-btn">Technology Stack</button>
-        
-<div className="tech-grid">
-  {technologies.map((tech, index) => (
-    <div key={index} className="tech-item" title={`${tech.experience}% Proficiency`}>
-      
-      <span className="tech-icon">
-        <img src={tech.icon} alt={tech.name} />
-      </span>
 
-      <span className="tech-name">{tech.name}</span>
-
-      <div className="experience-bar">
-        <div 
-          className="experience-fill" 
-          style={{ width: `${tech.experience}%` }}
-        ></div>
-      </div>
-
-      <span className="experience-level">{tech.experience}%</span>
-    </div>
-  ))}
-</div>
+        <div className="tech-categories">
+          {techCategories.map((cat, catIndex) => (
+            <div key={catIndex} className="tech-category-card">
+              <h3 className="tech-category-title">{cat.category}</h3>
+              <ul className="tech-list">
+                {cat.techs.map((tech, index) => (
+                  <li key={index}>{tech}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
