@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.bb32b27e.css",
-    "main.js": "/personal-portfolio/static/js/main.3a8a76d6.js",
+    "main.js": "/personal-portfolio/static/js/main.239f354e.js",
+    "static/media/2050.png": "/personal-portfolio/static/media/2050.ae49a898f465167f1c1e.png",
+    "static/media/YANCY ALMIRAÑEZ RESUME 2026.pdf": "/personal-portfolio/static/media/YANCY ALMIRAÑEZ RESUME 2026.b41977b9f2a53f6c76c3.pdf",
     "static/media/maycie.png": "/personal-portfolio/static/media/maycie.7ef80b28ef22e7935f59.png",
-    "static/media/2050.png": "/personal-portfolio/static/media/2050.c6f93e08e2d623906f3b.png",
     "static/media/099b41f5-527e-4acf-8b4b-df81bb845a08.jpeg": "/personal-portfolio/static/media/099b41f5-527e-4acf-8b4b-df81bb845a08.cabbb59b99d755dc65c7.jpeg",
     "static/media/17d55873-bcb4-4842-b983-bc1df44199d3.jpeg": "/personal-portfolio/static/media/17d55873-bcb4-4842-b983-bc1df44199d3.b9f6adb8cefbc6304988.jpeg",
     "static/media/data_eng.png": "/personal-portfolio/static/media/data_eng.df4d1a0037cf0785d012.png",
-    "static/media/YANCY ALMIRAÑEZ RESUME 2026.pdf": "/personal-portfolio/static/media/YANCY ALMIRAÑEZ RESUME 2026.5751a95970cbdc1eaee5.pdf",
     "static/media/api_sentinel_ai.png": "/personal-portfolio/static/media/api_sentinel_ai.acea2d1c29d9f6507725.png",
     "static/media/77d967ec-d1d0-4c38-8039-326d757adf67.jpeg": "/personal-portfolio/static/media/77d967ec-d1d0-4c38-8039-326d757adf67.a478ad79b8e022646f6e.jpeg",
     "static/media/1d64e0d7-896c-4ae6-b270-903ce430231b.jpeg": "/personal-portfolio/static/media/1d64e0d7-896c-4ae6-b270-903ce430231b.3c72c69051e6345a680a.jpeg",
@@ -16,10 +16,10 @@
     "static/media/zeniark.jpeg": "/personal-portfolio/static/media/zeniark.aa28fb3c0d07d5ff4e00.jpeg",
     "index.html": "/personal-portfolio/index.html",
     "main.bb32b27e.css.map": "/personal-portfolio/static/css/main.bb32b27e.css.map",
-    "main.3a8a76d6.js.map": "/personal-portfolio/static/js/main.3a8a76d6.js.map"
+    "main.239f354e.js.map": "/personal-portfolio/static/js/main.239f354e.js.map"
   },
   "entrypoints": [
     "static/css/main.bb32b27e.css",
-    "static/js/main.3a8a76d6.js"
+    "static/js/main.239f354e.js"
   ]
 }
